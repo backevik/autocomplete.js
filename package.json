@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete.js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Autocomplete based on a dictionary source",
+  "main": "index.js",
+  "repository": "git@github.com:backevik/autocomplete.js.git",
+  "author": "Andreas Bäckevik <a.backevik@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=13.9.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint:fix": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
